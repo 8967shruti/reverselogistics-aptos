@@ -1,0 +1,15 @@
+[package]
+name = "aptos-project"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ReverseLogisticsModule = "0xd8167b5bde71385b30407ddf15f7d5bcd231ed17d2b382c0228474053475de4b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
